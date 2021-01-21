@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "ckkffnteekqaaaaaaccddrhhamyjjuqwng",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "bare" : false,
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ckk5nt4kv00033r7av21gu862",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "ckkffntggztaaaaaahhddrhhaemseebbuce",
+      "elementLabel" : "Rich Text",
+      "propertyValues" : {
+        "html" : "&lt;p&gt;Use this form to invoke a python script from ServiceNow&lt;/p&gt;"
+      },
+      "slot" : "ckk5nt6zt00083r7a5sd8rhx9",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ckk5nt6zt00083r7a5sd8rhx9","size":"12","rows":[],"id":"ckk5nt6zt000a3r7at9f6h60o"}],"id":"ckk5nt6zt00093r7axzzy0vvt"},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
+  }
+}, {
+  "elementId" : "ckkffnuggaabbaaaaaacddrhhacujuffhhccv",
+  "elementLabel" : "Heading",
+  "propertyValues" : {
+    "label" : "Python script",
+    "variant" : "header-primary",
+    "wontWrap" : false,
+    "hasNoMargin" : false
+  },
+  "slot" : "ckk5nu606000d3r7avld7t5nw",
+  "definition" : {
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckkffnwddpddaaaaaamddrhhapftmadqz",
+  "elementLabel" : "Image",
+  "propertyValues" : {
+    "alt" : "",
+    "src" : "/now-image-placeholder.jpg",
+    "fit" : "cover",
+    "position" : "center center",
+    "height" : "200"
+  },
+  "slot" : "ckk5nw3p8000n3r7a63wu6zj4",
+  "definition" : {
+    "id" : "15fe506403f8a98575b6df59008ea8f1",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckkffnycraaaaaaarddrhhawabioeiee",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "bare" : false,
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ckk5nycrf000s3r7a77zr1km0",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "ckkffoggaaggiiaaaabbbbddrhhaapjjxwiihh",
+      "elementLabel" : "List",
+      "propertyValues" : {
+        "listTitle" : "All Active Incidents",
+        "table" : "incident",
+        "query" : "sys_created_onONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()",
+        "columns" : null,
+        "limit" : "5",
+        "maxColumns" : "5",
+        "page" : "1",
+        "hideHeader" : false,
+        "hideTitle" : false,
+        "hideTitleRowCount" : false,
+        "hideRefreshButton" : false,
+        "hideLastRefreshedText" : false,
+        "hideLinks" : false,
+        "hideViewAll" : true,
+        "hideHighlightedValues" : false,
+        "hideCellFilter" : true,
+        "hideCheckboxHover" : true,
+        "hideColumnFiltering" : true,
+        "hideColumnGrouping" : true,
+        "hideColumnSorting" : false,
+        "hideFilterPanel" : false,
+        "hideFirstPage" : false,
+        "hideLastPage" : false,
+        "hideLimitSelector" : false,
+        "hideMenuButton" : true,
+        "hideMultiEdit" : false,
+        "hideDeclarativeActions" : false,
+        "hideNextPage" : false,
+        "hidePages" : false,
+        "hidePagination" : true,
+        "hidePanel" : true,
+        "hidePanelAdvanced" : false,
+        "hidePanelConditionDelete" : false,
+        "hidePanelFooter" : false,
+        "hidePanelRestore" : false,
+        "hidePreviousPage" : false,
+        "hideQuickEdit" : true,
+        "hideRange" : false,
+        "hideRowCount" : false,
+        "hideRowSelector" : false,
+        "hideSelectAll" : true,
+        "hideEmptyStateImage" : false,
+        "hideDBViews" : false,
+        "hideUnnecessaryRowSelectors" : true
+      },
+      "slot" : "ckk5o606c00123r7awtykdwbx",
+      "definition" : {
+        "id" : "2b1c080881e05dc63b917044290b233f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "ckkffocabbzaaaabbffddrhhaiegqwtco",
+      "elementLabel" : "List",
+      "propertyValues" : {
+        "listTitle" : "All Active Incidents",
+        "table" : "incident",
+        "query" : "sys_created_onONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()",
+        "columns" : null,
+        "limit" : "5",
+        "maxColumns" : "5",
+        "page" : "1",
+        "hideHeader" : false,
+        "hideTitle" : false,
+        "hideTitleRowCount" : false,
+        "hideRefreshButton" : false,
+        "hideLastRefreshedText" : false,
+        "hideLinks" : false,
+        "hideViewAll" : false,
+        "hideHighlightedValues" : false,
+        "hideCellFilter" : true,
+        "hideCheckboxHover" : true,
+        "hideColumnFiltering" : true,
+        "hideColumnGrouping" : true,
+        "hideColumnSorting" : false,
+        "hideFilterPanel" : false,
+        "hideFirstPage" : false,
+        "hideLastPage" : false,
+        "hideLimitSelector" : false,
+        "hideMenuButton" : true,
+        "hideMultiEdit" : false,
+        "hideDeclarativeActions" : false,
+        "hideNextPage" : false,
+        "hidePages" : false,
+        "hidePagination" : true,
+        "hidePanel" : true,
+        "hidePanelAdvanced" : false,
+        "hidePanelConditionDelete" : false,
+        "hidePanelFooter" : false,
+        "hidePanelRestore" : false,
+        "hidePreviousPage" : false,
+        "hideQuickEdit" : true,
+        "hideRange" : false,
+        "hideRowCount" : false,
+        "hideRowSelector" : false,
+        "hideSelectAll" : true,
+        "hideEmptyStateImage" : false,
+        "hideDBViews" : false,
+        "hideUnnecessaryRowSelectors" : true
+      },
+      "slot" : "ckk5oca2300163r7anjd6suhd",
+      "definition" : {
+        "id" : "2b1c080881e05dc63b917044290b233f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "ckkffodoffaaaabbaddrhhajjzeeaakathh",
+      "elementLabel" : "List",
+      "propertyValues" : {
+        "listTitle" : "All Active Incidents",
+        "table" : "incident",
+        "query" : "sys_created_onONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()",
+        "columns" : null,
+        "limit" : "5",
+        "maxColumns" : "5",
+        "page" : "1",
+        "hideHeader" : false,
+        "hideTitle" : false,
+        "hideTitleRowCount" : false,
+        "hideRefreshButton" : false,
+        "hideLastRefreshedText" : false,
+        "hideLinks" : false,
+        "hideViewAll" : false,
+        "hideHighlightedValues" : false,
+        "hideCellFilter" : true,
+        "hideCheckboxHover" : true,
+        "hideColumnFiltering" : true,
+        "hideColumnGrouping" : true,
+        "hideColumnSorting" : false,
+        "hideFilterPanel" : false,
+        "hideFirstPage" : false,
+        "hideLastPage" : false,
+        "hideLimitSelector" : false,
+        "hideMenuButton" : true,
+        "hideMultiEdit" : false,
+        "hideDeclarativeActions" : false,
+        "hideNextPage" : false,
+        "hidePages" : false,
+        "hidePagination" : true,
+        "hidePanel" : true,
+        "hidePanelAdvanced" : false,
+        "hidePanelConditionDelete" : false,
+        "hidePanelFooter" : false,
+        "hidePanelRestore" : false,
+        "hidePreviousPage" : false,
+        "hideQuickEdit" : true,
+        "hideRange" : false,
+        "hideRowCount" : false,
+        "hideRowSelector" : false,
+        "hideSelectAll" : true,
+        "hideEmptyStateImage" : false,
+        "hideDBViews" : false,
+        "hideUnnecessaryRowSelectors" : true
+      },
+      "slot" : "ckk5odofk001b3r7ajd62ml0f",
+      "definition" : {
+        "id" : "2b1c080881e05dc63b917044290b233f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","columns":[{"type":"column","slotName":"ckk5odofk001b3r7ajd62ml0f","size":"12","rows":[],"id":"ckk5odofk001d3r7autlys8fn"}],"id":"ckk5odofk001c3r7ahs3uws89"},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
+  }
+} ]</composition>
+        <data/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <interactions/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"id":"ckk5nycrf000u3r7ab5i9g4gb","type":"column","rows":[{"type":"row","id":"ckk5nw3p8000p3r7af1argci2","columns":[{"type":"column","id":"ckk5nw3p8000o3r7ax2ryqqpz","slotName":"ckk5nw3p8000n3r7a63wu6zj4","size":"4"},{"type":"column","id":"ckk5nunc6000j3r7alum2hdbr","size":"8","rows":[{"type":"row","id":"ckk5nu607000e3r7ascs63aib","slotName":"ckk5nu606000d3r7avld7t5nw"},{"type":"row","id":"ckk5nt4kv00053r7a4bllea3p","slotName":"ckk5nt4kv00033r7av21gu862"}]}]},{"type":"row","id":"ckk5nycrf000t3r7ae4tx0pyo","slotName":"ckk5nycrf000s3r7a77zr1km0"}],"size":"12"},
+    "items" : null,
+    "rules" : null,
+    "styles" : null
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Python script executor</name>
+        <props/>
+        <root_component/>
+        <root_component_config/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 16:47:21</sys_created_on>
+        <sys_id>d27479c22f716010f101ad2ef699b6ca</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Python script executor</sys_name>
+        <sys_package display_value="PythonConnector" source="x_125590_pythoncon">e9c840822f712010f101ad2ef699b602</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PythonConnector">e9c840822f712010f101ad2ef699b602</sys_scope>
+        <sys_update_name>sys_ux_macroponent_d27479c22f716010f101ad2ef699b6ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 17:03:59</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>
